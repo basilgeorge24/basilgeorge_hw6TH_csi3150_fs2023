@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia|Poppins");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.map-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../Assets/HeroSection-bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.HeroHeading {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: x-large;
+}
+
+.HeroSubHeading {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-family: "Sofia", sans-serif;
+  font-style: italic;
+  font-size: larger;
+}
